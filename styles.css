@@ -1,0 +1,71 @@
+        /*       
+            EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly
+            EX10) Write a selector to target the footer
+        */
+
+/* EX1) Write a selector to target the h1 in jumbotron */
+.jumbotron > div > h1{
+
+    color: chocolate;
+    font-weight: 900;
+}
+
+/*EX2) Write a selector to target every children of the navbar */
+
+body > .container> .nav-scroller .nav a{
+
+    font-weight: 700;
+    
+}
+
+/*  EX3) Write a selector to target the "continue reading..." inside the jumbotron */
+
+.jumbotron > div > .lead + p a{
+
+    font-size:1rem;
+    color: cornsilk;
+}  
+
+/* EX4) Write a selector to target the first blogpost */
+
+body > .container > div:nth-of-type(3) .col-md-6:nth-of-type(1) .row {
+
+    background-color: rgb(225, 238, 238); 
+}
+
+/* EX5) Write a selector to target the "even" links in the navbar */
+
+body > .container> .nav-scroller .nav a:nth-child(even){
+
+     text-decoration: underline rgb(5, 5, 5);
+}
+
+/* EX6) Write a selector to target the last blog post */
+
+.blog-main> .blog-post:nth-of-type(2){
+
+    background-color: rgb(238, 238, 255);
+}
+
+
+/* EX7) Write a selector to target all the li into the first ordered-list in the sidebar ( Archives ) */
+
+
+.blog-main> .blog-sidebar > div:nth-of-type(2)> .list-unstyled > li> a {
+
+   font-weight: bolder;
+}
+
+/* EX8) Write a selector to target the second post author */
+
+.blog-main> .blog-post:nth-of-type(2) >.blog-post-meta> a{
+         color: darkorchid;
+}
+
+
+/* EX9) Write a selector to target the "back to top" link     #### EXTRA Try doing it without targeting the footer element directly */
+
+
+
+
+}
